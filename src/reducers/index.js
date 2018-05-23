@@ -1,9 +1,13 @@
-import { combineReducers } from 'redux';
-import sample from './sample';
+import * as types from "../constants";
 
-const rootReducer = combineReducers({
-  sample
-//  , other
-});
+const initialState = {
+  error: "",
+  isLoading: false,
+};
 
-export default rootReducer;
+export default function rootReducer(state = initialState, action) {
+  switch (action.type) {
+    default:
+      return state;
+  }
+}

@@ -4,6 +4,11 @@
 
 You will need [Yarn](https://yarnpkg.com/lang/en/docs/install).
 
+And  after that, Cordova:
+```
+yarn add -g cordova
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

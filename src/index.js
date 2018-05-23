@@ -8,9 +8,17 @@ import './index.css';
 const store= configureStore();
 const rootEl= document.getElementById('root');
 
-ReactDOM.render(
-  <Provider store={store}>
-    <App/>
-  </Provider>,
+const startApp = () => {
+  ReactDOM.render(
+    <Provider store={store}>
+      <App/>
+    </Provider>,
   rootEl
-);
+  );
+};
+
+if (window.cordova) {
+  document.addEventListener('deviceready', startApp, false);
+} else {
+  startApp();
+}
