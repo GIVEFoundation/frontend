@@ -5,5 +5,6 @@ export function sampleAction(id) {
   type: types.SAMPLE_TYPE,
   id
   };
+  
 }
 

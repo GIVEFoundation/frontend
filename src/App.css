@@ -26,3 +26,34 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.infobox
+    {
+    width: 50%;
+    height: 50%;
+    background-image:url(./icons/splash.png);
+    background-size: contain;
+	  background-position: center;
+	  background-repeat:no-repeat!important;
+    margin: 0;
+    padding: 0;   
+    }
+.divallign
+{
+  align-self: center;
+}
+
+.give_box{
+  border: 2px solid !important;
+  border-radius: 10px !important;
+  margin: 10px !important;
+  padding: 10px !important;
+     }
+  
+/* ========== DEMO STYLES ========== */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}

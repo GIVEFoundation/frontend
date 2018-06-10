@@ -5,7 +5,7 @@ import Select from 'react-select';
 const options = [
   { value: 'Aflatoun', label: 'Aflatoun' },
   { value: 'British International School', label: 'British International School' },
-  { value: 'vanilla', label: 'Vanilla' }
+
 ]
 const KidsPage = (props) => {
   props ={value:''}

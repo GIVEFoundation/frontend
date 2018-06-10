@@ -27,6 +27,15 @@ return (
         </dl>
       </Link>
     </div>
+    <div className="fl w-50 pa2">
+      <Link to={'/MyWallet'} className="db link dim tc">
+        <img className="w5 h5" src={kid} alt="kid"/>
+        <dl className="mt2 f6 lh-copy">
+          <dt className="clip">Kids</dt>
+          <dd className="ml0 black truncate w-100">Kids</dd>
+        </dl>
+      </Link>
+    </div>
   </div>
 </article>);
 }
