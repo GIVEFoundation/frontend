@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from './Header';
 import styles from '../App.css'
 import splash from '../icons/splash.png';
 const HomePage= (props) => {
@@ -8,7 +7,6 @@ const HomePage= (props) => {
 return (
  
 <article>
-  <Header title="HomePage"/>
   
   <div className="cf pa2">
     <div className="fl w-50 pa2">

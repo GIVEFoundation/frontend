@@ -29,8 +29,8 @@
 
 .infobox
     {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     background-image:url(./icons/splash.png);
     background-size: contain;
 	  background-position: center;
@@ -57,3 +57,168 @@
   font-weight: 400;
   src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
+
+ .earn-give-button{
+	 width: 109px !important;
+	height: 40px !important;
+	border-radius: 8% !important;
+	background-color: #cacaca !important;
+	border-color: #afafaf !important;
+ }
+ 
+ .new-earn-give-button{
+	width: 109px !important;
+	height: 40px !important;
+	border-radius:20px 20px 20px 20px !important;
+	background-color: #ffffff !important;
+	color:#000!important;
+	border-color: #afafaf !important;
+ }
+
+ 
+  .give_box{
+	border: 2px solid !important;
+	border-radius: 10px !important;
+	margin: 10px !important;
+	padding: 10px !important;
+	overflow:auto;
+   }
+   .circle { 
+		   width: 200px;
+		   height: 200px;
+		   background: #d8d8d8; 
+		   -moz-border-radius: 100px; 
+		   -webkit-border-radius: 100px; 
+		   border-radius: 100px;
+		   color:#454545;
+		   border: 2px solid;
+	}
+	.circle_head{
+		padding-top:30%;
+	}
+	
+	.transfer-giv-button , .next-button{
+		padding: 11px !important;
+		font-size: 17px !important;
+		color: #000 !important;
+		 background: #d8d8d8 !important;  
+		/*width: 100px;*/
+        border-radius: 20px !important;
+}
+    .purchase-btn{
+		padding: 11px !important;
+		font-size: 17px !important;
+		color: #000 !important;
+		 background: #d8d8d8 !important;  
+		/*width: 100px;*/
+        border-radius: 20px !important;
+	}
+
+  .product-img{
+	width: 100%;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+  
+  .img-box{
+	  width:50%;
+  }
+   .img-box2{
+	  width:33%;
+  }
+  
+   .product-img2{
+	width: 100%;
+	height: 100%;
+    /*height: 100px;*/
+  
+    border-radius: 10px;
+}
+  
+  .filter-box{
+  border:1px #ced4da solid;
+  border-radius: 10px;
+  background: #fafafa;
+  }
+  .half-width{
+    width:50% !important;
+   }
+   .link-style{
+	   color:grey;
+   }
+   .link-style:hover{
+	   color:#a20b10 !important;
+	   
+   }
+   .plus_size{
+	   font-size: x-large;
+	}
+	.qr-img{
+		width:200px;
+		height:200px;
+		border:1px #ced4da solid;
+		border-radius: 10px;
+	}
+	.qr-btn{
+		border-radius: 20px 0px 0px 20px !important;
+		border-color: grey !important;
+	}
+	.rfid-btn{
+		border-radius: 0px 20px 20px 0px !important; 
+	}
+	.purchase-box{
+		background:lightgray !important;	
+	}
+	.red-text{
+		color:#a20b10 !important;
+	}
+	.box-shdw{
+	 box-shadow: 0px 1px grey;
+	}
+	.head-text{
+		color: #2f343a;
+        font-weight: 600;
+	}
+	.sub-head-text{
+		color: #595959 !important;
+	}
+	.simple-text{
+		color: #797979 !important;
+		font-weight: 600 !important;
+	}
+	.send-giv-btn{
+		width:150px;
+	}
+	.green-text{
+		color:#79b501!important;
+	}
+	.bg-image{
+		background-image:url(./icons/splash.png);
+		background-repeat:no-repeat!important;
+		background-size:cover;
+		
+	}
+	.bg-box{
+		display:table;
+		width:100%;
+	}
+	.bg-img{
+		background-image:url(./icons/splash.png);
+		background-repeat:no-repeat!important;
+		background-size:cover!important;
+		
+	}
+	
+	
+	 .bg-head{
+		 background-image: url(./icons/treebg.png);
+		 
+	 }
+	@media only screen and (min-width: 500px) {
+		.bg-head{
+		 background-image: url(./icons/treebg.png);
+		 height:400px;
+		 
+	 }
+	}
