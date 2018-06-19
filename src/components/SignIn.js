@@ -10,7 +10,8 @@ export default class SignInPage extends React.Component {
 	state = {
 	  name: '',
 	  Id:0,
-	  PrimaryId: ''
+	  PrimaryId: '',
+	  Redirect:false,
 	}
   
 	handleChange = event => {
@@ -34,12 +35,15 @@ export default class SignInPage extends React.Component {
 			alert(res.statusText);
 			if(res.statusText=="OK")
 			{
-				return <Link to='/MyWallet' />
+				return (
+					<redirect to='/MyWallet'/>
+				  )
 			}
-		})
+		},this.setState({ redirect: true }))
 	}
   
 	render() {
+		const { redirect } = this.state;
 	  return (
 			<article>
 			   <Header title="SignIn Page"/>
